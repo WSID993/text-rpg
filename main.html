@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>see the console</p>
+</body>
+</html>
+<script>
+    let lvl = 0;
+    let sward = 'wood sword';
+    let nd = 10;
+    let cm = 1 + (1/2);
+    let cd = nd * cm;
+    let exp = 0;
+    let maxexp = 100 * (lvl *  ((lvl*1/2) * 100));
+    let a;
+
+    console.log("Do you start a game? (y/n)");
+
+    function start() {
+        stats();
+    }
+
+    function stats() {
+        console.log('Level:', lvl, 'Sword:', sward, 'Damage:', nd, 'CritMult:', cm);
+    }
+
+    // Detect 'y' keypress in the browser console/page (press 'y' while the page is focused)
+    document.addEventListener('keydown', (e) => {
+        if (!e.key) return;
+        const k = e.key.toLowerCase();
+        if (k === 'y') {
+            start();
+        } else if (k === 'n') {
+            for(let i=0; i<100; i++) {
+                console.log("��������������������������������������������������");
+            }
+        }
+    });
+</script>
