@@ -5,3 +5,4 @@ This code is based on text adventures
 # The game you're looking at is still incomplete, and it's intended to be modified by modifying the previous version or copying the code from the previous version. (ver. beta 1.0.0)
 # 今ご覧になっているこのゲームはまだ未完成で、以前のバージョンを修正するか、以前のバージョンのコードをコピーして修正する目的です。(ver. beta 1.0.0)
 # 您现在看到的这款游戏尚未完成，旨在修改旧版本或复制旧版本代码进行修改(ver. beta 1.0.0)# text-rpg
+# text-rpg
